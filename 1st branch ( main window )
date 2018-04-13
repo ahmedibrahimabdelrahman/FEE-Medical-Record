@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Medical Record">
+        <title>Medical record</title>
+        <link rel="stylesheet"href="style.css">
+        <script></script>
+        <style>
+            .Copyrights
+            {
+                text-align: right;
+                background:#333;
+                color: #FFF;
+            }
+            .header
+            {
+                background:#333;
+                color:#FFF;
+                font-size:20px;
+                text-align:center
+            }
+            .Question
+            {
+                background:#DDD;
+                color:#676767;
+                font-size:30px;
+                text-align: center
+            }
+            .navigation
+            {
+                font-size:35px;
+                color:#595959;
+                text-align: center;
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            Welcome to the Medical Record application
+            <br>
+            <img src="bin/1.png"width=400px:height=400px>
+        </div>
+        <div class="Question">
+            Are you a doctor or a patient ???
+        </div>
+        <div class="navigation">
+
+                    <a href="bin/Doctor.html"><input type="button"value="Doctor" ></a> <br>
+                    <a href="bin/Patient.html"> <input type="button" value="Patient"></a>
+
+
+        </div>
+        <div class="Copyrights">
+            Copyrights &copy; reserved for Medical Record Team
+        </div>
+    </body>
+</html>
